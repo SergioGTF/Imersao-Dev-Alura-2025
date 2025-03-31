@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    max-width: 150px;
+    width: auto;
+    margin-top: 20px;
+}
+
+.container {
+    background: url('https://th.bing.com/th/id/OIP.YYlIw-4arqOMtCdpBfWeewHaEK?rs=1&pid=ImgDetMain') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+}
+
+button {
+    background-color: #ff1b7b;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+}
+
+button:hover {
+    background-color: #1ABC9C;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 50px;
+    }
+
+    .content {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        max-width: 100px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    button {
+        font-size: 0.9em;
+        padding: 8px;
+        max-width: 250px;
+    }
+}
