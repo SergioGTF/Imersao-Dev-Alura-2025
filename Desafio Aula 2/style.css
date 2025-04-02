@@ -1,0 +1,76 @@
+/* Global Styles */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Logo Styles */
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 120px;
+}
+
+/* Main Container */
+.container {
+    background: url('https://t.ctcdn.com.br/R0CIRbMaTMtFiAmnLGT19cGTBUg=/768x432/smart/i958817.png') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Content Box */
+.content {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+/* Buttons */
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.opcao {
+    background-color: #ff1b7b;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.opcao:hover {
+    background-color: #1ABC9C;
+    transform: scale(1.1);
+}
+
+/* Result Display */
+.resultado p {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    color: white;
+    font-size: 0.9em;
+}
