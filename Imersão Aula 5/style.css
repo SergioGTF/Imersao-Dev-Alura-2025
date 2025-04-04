@@ -1,0 +1,170 @@
+body {
+    background: url("https://art.ngfiles.com/images/2622000/2622628_sh4db3ll3_nerd-emoji.png?f1657523269") no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Gabarito", sans-serif;
+    margin: 20px;
+    color: #fff;
+  }
+  
+  .logo {
+    text-align: right;
+    padding: 10px;
+  }
+  
+  .logo img {
+    width: 40%;
+    transition: transform 0.3s;
+  }
+  
+  .logo img:hover {
+    transform: scale(1.05);
+  }
+  
+  .conteudo-jogo {
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 15px rgba(255, 27, 123, 0.7);
+    margin: 30px auto;
+    padding: 20px;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    border-radius: 15px;
+    transition: background 0.3s, box-shadow 0.3s;
+  }
+  
+  .conteudo-jogo:hover {
+    background: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 15px rgba(25, 202, 202, 0.8);
+  }
+  
+  h2,
+  p {
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  }
+  
+  .questionario {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap: 20px;
+  }
+  
+  .pergunta {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 2px solid rgba(255, 27, 123, 0.5);
+  }
+  
+  .progresso {
+    text-align: right;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  .respostas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .botao-resposta {
+    width: 100%;
+    height: 2.8rem;
+    text-align: left;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(45deg, #ff1b7b, #ff5e92);
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .botao-resposta:hover {
+    background: linear-gradient(45deg, #19caca, #4fd6e3);
+    transform: translateY(-2px);
+    font-weight: 600;
+  }
+  
+  .fim {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .fim span {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #fff;
+  }
+  
+  .menu-dificuldade {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    margin: 2rem auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(25, 202, 202, 0.7);
+    max-width: 500px;
+  }
+  
+  .menu-dificuldade h3 {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .menu-dificuldade button {
+    background-color: #ff1b7b;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    margin: 0 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .menu-dificuldade button:hover {
+    background-color: #19caca;
+    transform: scale(1.1);
+  }
+  
+  .fim button {
+    padding: 10px 25px;
+    background-color: #ff1b7b;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .fim button:hover {
+    background-color: #19caca;
+    transform: scale(1.05);
+  }
+  
